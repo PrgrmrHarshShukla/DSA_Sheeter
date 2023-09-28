@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "dsaSheeter",
+    "version": "1.0",
+    "description": "It helps you to keep track of all the DSA questions you solve by storing the URLs of all those questions.",
+    "permissions": [
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "1": "images/icon1.png"
+      }
+    },
+    "icons": {
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+            "http://*/*"
+        ],
+        "js": [
+            "test.js"
+        ]
+      }
+    ]
+  }
+  
