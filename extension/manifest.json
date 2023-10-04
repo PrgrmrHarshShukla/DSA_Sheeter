@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "dsaSheeter",
     "version": "1.0",
-    "description": "It helps you to keep track of all the DSA questions you solve by storing the URLs of all those questions.",
+    "description": "It helps you to keep track of all the DSA questions you solve by storing their URLs.",
     "permissions": [
       "activeTab"
     ],
