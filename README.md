@@ -14,3 +14,7 @@ Feel free to get a copy of the code and run it locally.
 
 
 Feel free to suggest any improvements or report actual issues by opening an issue.
+
+## How does it look?
+![image](https://github.com/PrgrmrHarshShukla/DSA_Sheeter/assets/125105825/683fe196-71bc-4017-ad51-991dca4b7d14)
+
