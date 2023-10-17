@@ -4,7 +4,9 @@ let questionTitle;
 chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
     url = tabs[0].url
     const title = tabs[0].title;
-    questionTitle = title.slice(0, title.length - 11);
+    // console.log(title);
+    // questionTitle = title.slice(0, title.length - 11);
+    questionTitle = title;
 })
 
 const button = document.getElementById('addButton');
